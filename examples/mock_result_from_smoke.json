@@ -1,0 +1,988 @@
+{
+  "case_id": "madra-toy-001",
+  "mode": "full",
+  "run_index": 0,
+  "seed": null,
+  "temperature": 0.0,
+  "rounds_completed": 1,
+  "final": {
+    "liability_label": "shared_responsibility",
+    "allocation": {
+      "owner": 60.0,
+      "contractor": 40.0
+    },
+    "key_claims": [
+      "Owner design change and approval delay contributed to the delay.",
+      "Responsibility claims should be grounded in E1 and E1."
+    ],
+    "evidence_ids": [
+      "E1"
+    ],
+    "consensus_score": 1.0,
+    "disagreement_score": 0.0,
+    "unsupported_claim_rate": 0.0,
+    "conflict_points": [],
+    "rationale": "Decision-support synthesis based on role-agent labels, allocation estimates, evidence overlap, and unsupported-claim checks.",
+    "management_implications": {
+      "key_risk_points": [
+        "Delay responsibility remains sensitive to notice, causality, and evidence sufficiency.",
+        "Owner design change and approval delay contributed to the delay.",
+        "Responsibility claims should be grounded in E1 and E1."
+      ],
+      "evidence_preparation_suggestions": [
+        "Preserve and index evidence spans: E1.",
+        "Link each delay event to contemporaneous notices, instructions, schedules, and progress records."
+      ],
+      "claim_negotiation_focus": [
+        "Focus negotiation on supported causality and responsibility allocation, not unsupported narrative claims.",
+        "Use the final decision-support label as a scenario: shared_responsibility."
+      ],
+      "preventive_actions": [
+        "Maintain a live delay-event register with evidence IDs and responsible-party hypotheses.",
+        "Review approval, variation, recovery-plan, and notice workflows before disputes escalate."
+      ]
+    }
+  },
+  "rounds": [
+    {
+      "round_index": 1,
+      "agent_outputs": [
+        {
+          "agent_role": "owner_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Owner design change and approval delay contributed to the delay."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "E1 records the key delay-related fact."
+          ],
+          "uncertainty": 0.2,
+          "unsupported_claims": []
+        },
+        {
+          "agent_role": "contractor_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Owner design change and approval delay contributed to the delay."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "E1 records the key delay-related fact."
+          ],
+          "uncertainty": 0.2,
+          "unsupported_claims": []
+        },
+        {
+          "agent_role": "delay_analysis_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Owner design change and approval delay contributed to the delay."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "E1 records the key delay-related fact."
+          ],
+          "uncertainty": 0.2,
+          "unsupported_claims": []
+        },
+        {
+          "agent_role": "contract_rule_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Owner design change and approval delay contributed to the delay."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "E1 records the key delay-related fact."
+          ],
+          "uncertainty": 0.2,
+          "unsupported_claims": []
+        },
+        {
+          "agent_role": "evidence_verification_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Responsibility claims should be grounded in E1 and E1."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "No final key attribution should be made without valid IDs such as E1 or E1."
+          ],
+          "uncertainty": 0.15,
+          "unsupported_claims": []
+        }
+      ],
+      "coordination": {
+        "liability_label": "shared_responsibility",
+        "allocation": {
+          "owner": 60.0,
+          "contractor": 40.0
+        },
+        "key_claims": [
+          "Owner design change and approval delay contributed to the delay.",
+          "Responsibility claims should be grounded in E1 and E1."
+        ],
+        "evidence_ids": [
+          "E1"
+        ],
+        "consensus_score": 1.0,
+        "disagreement_score": 0.0,
+        "unsupported_claim_rate": 0.0,
+        "conflict_points": [],
+        "rationale": "Decision-support synthesis based on role-agent labels, allocation estimates, evidence overlap, and unsupported-claim checks.",
+        "management_implications": {
+          "key_risk_points": [
+            "Delay responsibility remains sensitive to notice, causality, and evidence sufficiency.",
+            "Owner design change and approval delay contributed to the delay.",
+            "Responsibility claims should be grounded in E1 and E1."
+          ],
+          "evidence_preparation_suggestions": [
+            "Preserve and index evidence spans: E1.",
+            "Link each delay event to contemporaneous notices, instructions, schedules, and progress records."
+          ],
+          "claim_negotiation_focus": [
+            "Focus negotiation on supported causality and responsibility allocation, not unsupported narrative claims.",
+            "Use the final decision-support label as a scenario: shared_responsibility."
+          ],
+          "preventive_actions": [
+            "Maintain a live delay-event register with evidence IDs and responsible-party hypotheses.",
+            "Review approval, variation, recovery-plan, and notice workflows before disputes escalate."
+          ]
+        }
+      }
+    }
+  ],
+  "audit_log": [
+    {
+      "event_id": "A-d19eed86f58a",
+      "event_type": "task_started",
+      "actor": "coordinator",
+      "round_id": 0,
+      "details": {
+        "case_id": "madra-toy-001"
+      }
+    },
+    {
+      "event_id": "A-ffadf04ee13a",
+      "event_type": "task_started",
+      "actor": "coordinator_agent",
+      "round_id": 1,
+      "details": {
+        "case_id": "madra-toy-001",
+        "state_id": "B-1b2d12264a8f"
+      }
+    },
+    {
+      "event_id": "A-f12f923ecb5d",
+      "event_type": "agent_argument_submitted",
+      "actor": "owner_agent",
+      "round_id": 1,
+      "details": {
+        "message_id": "M-9a762aee6461",
+        "claim_id": "owner_agent-R1-1"
+      }
+    },
+    {
+      "event_id": "A-6da6ffe7eb12",
+      "event_type": "agent_argument_submitted",
+      "actor": "contractor_agent",
+      "round_id": 1,
+      "details": {
+        "message_id": "M-c59792fe1cb3",
+        "claim_id": "contractor_agent-R1-2"
+      }
+    },
+    {
+      "event_id": "A-ff0002c262d5",
+      "event_type": "agent_argument_submitted",
+      "actor": "delay_analysis_agent",
+      "round_id": 1,
+      "details": {
+        "message_id": "M-620bcf6bb5e7",
+        "claim_id": "delay_analysis_agent-R1-3"
+      }
+    },
+    {
+      "event_id": "A-fcfd94865346",
+      "event_type": "agent_argument_submitted",
+      "actor": "contract_rule_agent",
+      "round_id": 1,
+      "details": {
+        "message_id": "M-4ad0720efc79",
+        "claim_id": "contract_rule_agent-R1-4"
+      }
+    },
+    {
+      "event_id": "A-edce8560932c",
+      "event_type": "agent_argument_submitted",
+      "actor": "evidence_verification_agent",
+      "round_id": 1,
+      "details": {
+        "message_id": "M-96460dc4ab32",
+        "claim_id": "evidence_verification_agent-R1-5"
+      }
+    },
+    {
+      "event_id": "A-12bd07a12d5e",
+      "event_type": "evidence_verified",
+      "actor": "evidence_verification_agent",
+      "round_id": 1,
+      "details": {
+        "records": 5
+      }
+    },
+    {
+      "event_id": "A-521b55636acc",
+      "event_type": "verification_posted",
+      "actor": "evidence_verification_agent",
+      "round_id": 1,
+      "details": {
+        "message_id": "M-a223ee8f9e88",
+        "claim_id": "verification-R1"
+      }
+    },
+    {
+      "event_id": "A-a56cf4440c0a",
+      "event_type": "conflict_detected",
+      "actor": "coordinator_agent",
+      "round_id": 1,
+      "details": {
+        "open_conflicts": 0
+      }
+    },
+    {
+      "event_id": "A-12f88050ecdc",
+      "event_type": "final_output_generated",
+      "actor": "coordinator_agent",
+      "round_id": 1,
+      "details": {
+        "round_index": 1,
+        "disagreement_score": 0.0,
+        "consensus_score": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "stop_condition_satisfied": true
+      }
+    }
+  ],
+  "blackboard_state": {
+    "state_id": "B-79d3db7cdabe",
+    "case_profile": {
+      "case_id": "madra-toy-001",
+      "project_type": "building",
+      "dispute_type": "delay responsibility",
+      "parties": {
+        "owner": "Employer",
+        "contractor": "Main contractor"
+      },
+      "facts": [
+        "The owner issued a late design change."
+      ],
+      "claims": [
+        "The contractor requested an extension of time."
+      ],
+      "evidence_spans": [
+        {
+          "span_id": "E1",
+          "text": "The owner issued a late design change.",
+          "source": "candidate_label"
+        }
+      ],
+      "reasoning_spans": [],
+      "final_decision": "Shared responsibility",
+      "liability_label": "shared_responsibility",
+      "allocation_ground_truth": {
+        "owner": 60.0,
+        "contractor": 40.0
+      }
+    },
+    "evidence_registry": {
+      "E1": {
+        "span_id": "E1",
+        "text": "The owner issued a late design change.",
+        "source": "candidate_label"
+      }
+    },
+    "claim_ledger": {
+      "owner_agent-R1-1": {
+        "claim_id": "owner_agent-R1-1",
+        "text": "Owner design change and approval delay contributed to the delay.",
+        "agent_role": "owner_agent",
+        "evidence_ids": [
+          "E1"
+        ],
+        "status": "submitted"
+      },
+      "contractor_agent-R1-2": {
+        "claim_id": "contractor_agent-R1-2",
+        "text": "Owner design change and approval delay contributed to the delay.",
+        "agent_role": "contractor_agent",
+        "evidence_ids": [
+          "E1"
+        ],
+        "status": "submitted"
+      },
+      "delay_analysis_agent-R1-3": {
+        "claim_id": "delay_analysis_agent-R1-3",
+        "text": "Owner design change and approval delay contributed to the delay.",
+        "agent_role": "delay_analysis_agent",
+        "evidence_ids": [
+          "E1"
+        ],
+        "status": "submitted"
+      },
+      "contract_rule_agent-R1-4": {
+        "claim_id": "contract_rule_agent-R1-4",
+        "text": "Owner design change and approval delay contributed to the delay.",
+        "agent_role": "contract_rule_agent",
+        "evidence_ids": [
+          "E1"
+        ],
+        "status": "submitted"
+      },
+      "evidence_verification_agent-R1-5": {
+        "claim_id": "evidence_verification_agent-R1-5",
+        "text": "Responsibility claims should be grounded in E1 and E1.",
+        "agent_role": "evidence_verification_agent",
+        "evidence_ids": [
+          "E1"
+        ],
+        "status": "submitted"
+      }
+    },
+    "argument_graph": {
+      "nodes": {
+        "EV-E1": {
+          "node_type": "evidence",
+          "node_id": "EV-E1",
+          "span_id": "E1",
+          "text": "The owner issued a late design change."
+        },
+        "CL-owner_agent-R1-1": {
+          "node_type": "claim",
+          "node_id": "CL-owner_agent-R1-1",
+          "text": "Owner design change and approval delay contributed to the delay.",
+          "source_agent": "owner_agent"
+        },
+        "RS-owner_agent-R1-1": {
+          "node_type": "responsibility",
+          "node_id": "RS-owner_agent-R1-1",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          }
+        },
+        "CL-contractor_agent-R1-2": {
+          "node_type": "claim",
+          "node_id": "CL-contractor_agent-R1-2",
+          "text": "Owner design change and approval delay contributed to the delay.",
+          "source_agent": "contractor_agent"
+        },
+        "RS-contractor_agent-R1-2": {
+          "node_type": "responsibility",
+          "node_id": "RS-contractor_agent-R1-2",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          }
+        },
+        "CL-delay_analysis_agent-R1-3": {
+          "node_type": "claim",
+          "node_id": "CL-delay_analysis_agent-R1-3",
+          "text": "Owner design change and approval delay contributed to the delay.",
+          "source_agent": "delay_analysis_agent"
+        },
+        "RS-delay_analysis_agent-R1-3": {
+          "node_type": "responsibility",
+          "node_id": "RS-delay_analysis_agent-R1-3",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          }
+        },
+        "CL-contract_rule_agent-R1-4": {
+          "node_type": "claim",
+          "node_id": "CL-contract_rule_agent-R1-4",
+          "text": "Owner design change and approval delay contributed to the delay.",
+          "source_agent": "contract_rule_agent"
+        },
+        "RS-contract_rule_agent-R1-4": {
+          "node_type": "responsibility",
+          "node_id": "RS-contract_rule_agent-R1-4",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          }
+        },
+        "CL-evidence_verification_agent-R1-5": {
+          "node_type": "claim",
+          "node_id": "CL-evidence_verification_agent-R1-5",
+          "text": "Responsibility claims should be grounded in E1 and E1.",
+          "source_agent": "evidence_verification_agent"
+        },
+        "RS-evidence_verification_agent-R1-5": {
+          "node_type": "responsibility",
+          "node_id": "RS-evidence_verification_agent-R1-5",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          }
+        }
+      },
+      "edges": [
+        {
+          "source": "EV-E1",
+          "target": "CL-owner_agent-R1-1",
+          "edge_type": "supports",
+          "weight": 1.0,
+          "evidence_ids": [
+            "E1"
+          ]
+        },
+        {
+          "source": "EV-E1",
+          "target": "CL-contractor_agent-R1-2",
+          "edge_type": "supports",
+          "weight": 1.0,
+          "evidence_ids": [
+            "E1"
+          ]
+        },
+        {
+          "source": "EV-E1",
+          "target": "CL-delay_analysis_agent-R1-3",
+          "edge_type": "supports",
+          "weight": 1.0,
+          "evidence_ids": [
+            "E1"
+          ]
+        },
+        {
+          "source": "EV-E1",
+          "target": "CL-contract_rule_agent-R1-4",
+          "edge_type": "supports",
+          "weight": 1.0,
+          "evidence_ids": [
+            "E1"
+          ]
+        },
+        {
+          "source": "EV-E1",
+          "target": "CL-evidence_verification_agent-R1-5",
+          "edge_type": "supports",
+          "weight": 1.0,
+          "evidence_ids": [
+            "E1"
+          ]
+        }
+      ]
+    },
+    "message_pool": [
+      {
+        "message_id": "M-9a762aee6461",
+        "round_id": 1,
+        "timestamp": "2026-06-02T05:10:16.155421+00:00",
+        "sender": "owner_agent",
+        "receiver": "coordinator_agent",
+        "claim_id": "owner_agent-R1-1",
+        "evidence_ids": [
+          "E1"
+        ],
+        "message_type": "claim",
+        "content": {
+          "agent_role": "owner_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Owner design change and approval delay contributed to the delay."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "E1 records the key delay-related fact."
+          ],
+          "uncertainty": 0.2,
+          "unsupported_claims": []
+        },
+        "confidence": 0.8,
+        "required_action": "verify_and_coordinate",
+        "metadata": {
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "unsupported_claims": []
+        }
+      },
+      {
+        "message_id": "M-c59792fe1cb3",
+        "round_id": 1,
+        "timestamp": "2026-06-02T05:10:16.155513+00:00",
+        "sender": "contractor_agent",
+        "receiver": "coordinator_agent",
+        "claim_id": "contractor_agent-R1-2",
+        "evidence_ids": [
+          "E1"
+        ],
+        "message_type": "claim",
+        "content": {
+          "agent_role": "contractor_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Owner design change and approval delay contributed to the delay."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "E1 records the key delay-related fact."
+          ],
+          "uncertainty": 0.2,
+          "unsupported_claims": []
+        },
+        "confidence": 0.8,
+        "required_action": "verify_and_coordinate",
+        "metadata": {
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "unsupported_claims": []
+        }
+      },
+      {
+        "message_id": "M-620bcf6bb5e7",
+        "round_id": 1,
+        "timestamp": "2026-06-02T05:10:16.155578+00:00",
+        "sender": "delay_analysis_agent",
+        "receiver": "coordinator_agent",
+        "claim_id": "delay_analysis_agent-R1-3",
+        "evidence_ids": [
+          "E1"
+        ],
+        "message_type": "claim",
+        "content": {
+          "agent_role": "delay_analysis_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Owner design change and approval delay contributed to the delay."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "E1 records the key delay-related fact."
+          ],
+          "uncertainty": 0.2,
+          "unsupported_claims": []
+        },
+        "confidence": 0.8,
+        "required_action": "verify_and_coordinate",
+        "metadata": {
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "unsupported_claims": []
+        }
+      },
+      {
+        "message_id": "M-4ad0720efc79",
+        "round_id": 1,
+        "timestamp": "2026-06-02T05:10:16.155633+00:00",
+        "sender": "contract_rule_agent",
+        "receiver": "coordinator_agent",
+        "claim_id": "contract_rule_agent-R1-4",
+        "evidence_ids": [
+          "E1"
+        ],
+        "message_type": "claim",
+        "content": {
+          "agent_role": "contract_rule_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Owner design change and approval delay contributed to the delay."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "E1 records the key delay-related fact."
+          ],
+          "uncertainty": 0.2,
+          "unsupported_claims": []
+        },
+        "confidence": 0.8,
+        "required_action": "verify_and_coordinate",
+        "metadata": {
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "unsupported_claims": []
+        }
+      },
+      {
+        "message_id": "M-96460dc4ab32",
+        "round_id": 1,
+        "timestamp": "2026-06-02T05:10:16.155684+00:00",
+        "sender": "evidence_verification_agent",
+        "receiver": "coordinator_agent",
+        "claim_id": "evidence_verification_agent-R1-5",
+        "evidence_ids": [
+          "E1"
+        ],
+        "message_type": "claim",
+        "content": {
+          "agent_role": "evidence_verification_agent",
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "key_claims": [
+            "Responsibility claims should be grounded in E1 and E1."
+          ],
+          "evidence_ids": [
+            "E1"
+          ],
+          "reasoning_steps": [
+            "No final key attribution should be made without valid IDs such as E1 or E1."
+          ],
+          "uncertainty": 0.15,
+          "unsupported_claims": []
+        },
+        "confidence": 0.85,
+        "required_action": "verify_and_coordinate",
+        "metadata": {
+          "liability_label": "shared_responsibility",
+          "allocation": {
+            "owner": 60.0,
+            "contractor": 40.0
+          },
+          "unsupported_claims": []
+        }
+      },
+      {
+        "message_id": "M-a223ee8f9e88",
+        "round_id": 1,
+        "timestamp": "2026-06-02T05:10:16.155728+00:00",
+        "sender": "evidence_verification_agent",
+        "receiver": "coordinator_agent",
+        "claim_id": "verification-R1",
+        "evidence_ids": [
+          "E1"
+        ],
+        "message_type": "verification",
+        "content": {
+          "verification_records": [
+            {
+              "round_id": 1,
+              "agent_role": "owner_agent",
+              "claim": "Owner design change and approval delay contributed to the delay.",
+              "evidence_ids": [
+                "E1"
+              ],
+              "verification_status": "support"
+            },
+            {
+              "round_id": 1,
+              "agent_role": "contractor_agent",
+              "claim": "Owner design change and approval delay contributed to the delay.",
+              "evidence_ids": [
+                "E1"
+              ],
+              "verification_status": "support"
+            },
+            {
+              "round_id": 1,
+              "agent_role": "delay_analysis_agent",
+              "claim": "Owner design change and approval delay contributed to the delay.",
+              "evidence_ids": [
+                "E1"
+              ],
+              "verification_status": "support"
+            },
+            {
+              "round_id": 1,
+              "agent_role": "contract_rule_agent",
+              "claim": "Owner design change and approval delay contributed to the delay.",
+              "evidence_ids": [
+                "E1"
+              ],
+              "verification_status": "support"
+            },
+            {
+              "round_id": 1,
+              "agent_role": "evidence_verification_agent",
+              "claim": "Responsibility claims should be grounded in E1 and E1.",
+              "evidence_ids": [
+                "E1"
+              ],
+              "verification_status": "support"
+            }
+          ]
+        },
+        "confidence": 1.0,
+        "required_action": "update_conflict_graph",
+        "metadata": {}
+      }
+    ],
+    "verification_records": [
+      {
+        "round_id": 1,
+        "agent_role": "owner_agent",
+        "claim": "Owner design change and approval delay contributed to the delay.",
+        "evidence_ids": [
+          "E1"
+        ],
+        "verification_status": "support"
+      },
+      {
+        "round_id": 1,
+        "agent_role": "contractor_agent",
+        "claim": "Owner design change and approval delay contributed to the delay.",
+        "evidence_ids": [
+          "E1"
+        ],
+        "verification_status": "support"
+      },
+      {
+        "round_id": 1,
+        "agent_role": "delay_analysis_agent",
+        "claim": "Owner design change and approval delay contributed to the delay.",
+        "evidence_ids": [
+          "E1"
+        ],
+        "verification_status": "support"
+      },
+      {
+        "round_id": 1,
+        "agent_role": "contract_rule_agent",
+        "claim": "Owner design change and approval delay contributed to the delay.",
+        "evidence_ids": [
+          "E1"
+        ],
+        "verification_status": "support"
+      },
+      {
+        "round_id": 1,
+        "agent_role": "evidence_verification_agent",
+        "claim": "Responsibility claims should be grounded in E1 and E1.",
+        "evidence_ids": [
+          "E1"
+        ],
+        "verification_status": "support"
+      }
+    ],
+    "conflict_graph": {
+      "conflicts": []
+    },
+    "consensus_state": {
+      "round_index": 1,
+      "disagreement_score": 0.0,
+      "consensus_score": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "stop_condition_satisfied": true
+    },
+    "revision_history": [],
+    "audit_log": [
+      {
+        "event_id": "A-d19eed86f58a",
+        "event_type": "task_started",
+        "actor": "coordinator",
+        "round_id": 0,
+        "details": {
+          "case_id": "madra-toy-001"
+        }
+      },
+      {
+        "event_id": "A-ffadf04ee13a",
+        "event_type": "task_started",
+        "actor": "coordinator_agent",
+        "round_id": 1,
+        "details": {
+          "case_id": "madra-toy-001",
+          "state_id": "B-1b2d12264a8f"
+        }
+      },
+      {
+        "event_id": "A-f12f923ecb5d",
+        "event_type": "agent_argument_submitted",
+        "actor": "owner_agent",
+        "round_id": 1,
+        "details": {
+          "message_id": "M-9a762aee6461",
+          "claim_id": "owner_agent-R1-1"
+        }
+      },
+      {
+        "event_id": "A-6da6ffe7eb12",
+        "event_type": "agent_argument_submitted",
+        "actor": "contractor_agent",
+        "round_id": 1,
+        "details": {
+          "message_id": "M-c59792fe1cb3",
+          "claim_id": "contractor_agent-R1-2"
+        }
+      },
+      {
+        "event_id": "A-ff0002c262d5",
+        "event_type": "agent_argument_submitted",
+        "actor": "delay_analysis_agent",
+        "round_id": 1,
+        "details": {
+          "message_id": "M-620bcf6bb5e7",
+          "claim_id": "delay_analysis_agent-R1-3"
+        }
+      },
+      {
+        "event_id": "A-fcfd94865346",
+        "event_type": "agent_argument_submitted",
+        "actor": "contract_rule_agent",
+        "round_id": 1,
+        "details": {
+          "message_id": "M-4ad0720efc79",
+          "claim_id": "contract_rule_agent-R1-4"
+        }
+      },
+      {
+        "event_id": "A-edce8560932c",
+        "event_type": "agent_argument_submitted",
+        "actor": "evidence_verification_agent",
+        "round_id": 1,
+        "details": {
+          "message_id": "M-96460dc4ab32",
+          "claim_id": "evidence_verification_agent-R1-5"
+        }
+      },
+      {
+        "event_id": "A-12bd07a12d5e",
+        "event_type": "evidence_verified",
+        "actor": "evidence_verification_agent",
+        "round_id": 1,
+        "details": {
+          "records": 5
+        }
+      },
+      {
+        "event_id": "A-521b55636acc",
+        "event_type": "verification_posted",
+        "actor": "evidence_verification_agent",
+        "round_id": 1,
+        "details": {
+          "message_id": "M-a223ee8f9e88",
+          "claim_id": "verification-R1"
+        }
+      },
+      {
+        "event_id": "A-a56cf4440c0a",
+        "event_type": "conflict_detected",
+        "actor": "coordinator_agent",
+        "round_id": 1,
+        "details": {
+          "open_conflicts": 0
+        }
+      },
+      {
+        "event_id": "A-12f88050ecdc",
+        "event_type": "final_output_generated",
+        "actor": "coordinator_agent",
+        "round_id": 1,
+        "details": {
+          "round_index": 1,
+          "disagreement_score": 0.0,
+          "consensus_score": 1.0,
+          "unsupported_claim_rate": 0.0,
+          "stop_condition_satisfied": true
+        }
+      }
+    ],
+    "workflow_trace": {
+      "steps": [
+        {
+          "step_id": "W-e59bf91d1315",
+          "timestamp": "2026-06-02T05:10:16.155255+00:00",
+          "actor": "coordinator_agent",
+          "input_state_id": "B-1b2d12264a8f",
+          "output_state_id": "B-e2988408544d",
+          "trigger_condition": "new_deliberation_round",
+          "output_summary": "Coordinator posted role-specific responsibility attribution task to the shared blackboard."
+        },
+        {
+          "step_id": "W-91bc29731462",
+          "timestamp": "2026-06-02T05:10:16.155704+00:00",
+          "actor": "role_agents",
+          "input_state_id": "B-e2988408544d",
+          "output_state_id": "B-a73f8096f644",
+          "trigger_condition": "coordinator_task_posted",
+          "output_summary": "5 structured ClaimMessages submitted to the blackboard."
+        },
+        {
+          "step_id": "W-19c0ee4f2c3c",
+          "timestamp": "2026-06-02T05:10:16.155741+00:00",
+          "actor": "evidence_verification_agent",
+          "input_state_id": "B-a73f8096f644",
+          "output_state_id": "B-79d3db7cdabe",
+          "trigger_condition": "agent_argument_submitted",
+          "output_summary": "Verified 5 claim-evidence links."
+        }
+      ]
+    }
+  }
+}

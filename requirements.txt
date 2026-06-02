@@ -1,0 +1,3 @@
+# Mock-mode runs and the included smoke test only require the Python standard library.
+# Setuptools is needed only when installing the package locally.
+setuptools>=61

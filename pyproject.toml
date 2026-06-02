@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "madra-delay-attribution"
+version = "0.1.0"
+description = "Blackboard-mediated multi-agent responsibility attribution for construction delay disputes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.setuptools.packages.find]
+include = ["madra*"]
