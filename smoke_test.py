@@ -29,10 +29,12 @@ def build_case() -> CaseRecord:
 def main() -> None:
     result = MADRAPipeline(llm=MockLLM(), max_rounds=2).run(build_case())
     assert result.final.liability_label
-    Path("examples/mock_result_from_smoke.json").write_text(
+    output_path = Path("examples/mock_result_from_smoke.runtime.json")
+    output_path.write_text(
         json.dumps(result.to_dict(), ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    output_path.unlink()
     print("madra-delay-attribution smoke test passed")
 
 
